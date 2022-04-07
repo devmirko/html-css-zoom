@@ -8,9 +8,27 @@
 
 header{
     height: 100px;
-    /* debug */
-    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color: #000000;
 }
+
+.bottom_head{
+    display: inline-block;
+    background-color: #4A4A4A;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 10px;
+   
+}
+
+
 
 /* stile del corpo pagina */
 
