@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* classi generali */
+.green{
+    color: #4BC800;
+}
 
 /* stile della testata */
+
 
 header{
     height: 100px;
@@ -106,7 +111,6 @@ footer nav .nav_left ul{
     height: 100%;
     display: flex;
     list-style-type: none;
-    justify-content: flex-start;
     align-items: center;
     font-size: 18px;
    
@@ -143,12 +147,17 @@ footer nav .nav_center ul{
     
    
 }
+
 footer nav .nav_center ul li a{
     display: inline-block;
     color: white;
     margin-right: 30px;
     text-align: center;
     text-decoration: none;
+}
+
+footer nav .nav_center ul li a i{
+    font-size: 20px;
 }
 
 /* stile bottone di sinistra */
