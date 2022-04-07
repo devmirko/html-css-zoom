@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* stile della testata */
+
+header{
+    height: 100px;
+    /* debug */
+    background-color: red;
+}
+
+/* stile del corpo pagina */
+
+main{
+    width: 100vw;
+    height: calc( 100vh - 200px);
+     /* debug */
+    background-color: yellow;
+}
+
+/* stile del footer e del menu */
+
+footer{
+  height: 100px;
+  /* debug */
+  background-color: blue;
+}
