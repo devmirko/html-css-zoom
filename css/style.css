@@ -12,6 +12,7 @@ header{
     justify-content: flex-end;
     padding: 5px;
     background-color: #000000;
+    
 }
 
 .bottom_head{
@@ -35,27 +36,27 @@ header{
 main{
     width: 100vw;
     height: calc( 100vh - 200px);
-     /* debug */
-    background-color: yellow;
+    background-color: black;
+   
 }
 
 .container{
     width: 90%;
     height: calc( 100vh - 200px);
     margin: 0 auto;
-    /* debug */
-    background-color: red;
-    display
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    
 }
 
 /* stile profilo */
 
 .item{
-    width: 15%;
+    width: calc(100% / 7 - 10px);
     height: 150px;
-    /* debug */
-    background-color: white;
     position: relative;
+    margin: 5px;
   
 }
 
@@ -82,4 +83,5 @@ footer{
   height: 100px;
   /* debug */
   background-color: blue;
+  
 }
